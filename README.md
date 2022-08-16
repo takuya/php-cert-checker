@@ -1,4 +1,4 @@
-## SSL/TLS certificate checker
+## SSL/TLS certificate due date checker
 
 ![](https://github.com/takuya/php-cert-checker/workflows/main/badge.svg)
 
