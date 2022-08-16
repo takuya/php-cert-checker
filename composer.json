@@ -1,8 +1,17 @@
 {
   "name": "takuya/php-cert-checker",
   "description": "get certificate information",
+  "homepage": "https://github.com/takuya/php-cert-checker",
   "type": "library",
   "license": "GPL-3.0-or-later",
+  "version": "1.0",
+  "keywords": [
+    "certificate",
+    "openssl",
+    "due date",
+    "expired",
+    "check"
+  ],
   "autoload": {
     "psr-4": {
       "Takuya\\PhpCertChecker\\": "src/"
