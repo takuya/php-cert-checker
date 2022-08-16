@@ -1,5 +1,7 @@
 ## SSL/TLS certificate checker
 
+![](https://github.com/takuya/php-cert-checker/workflows/main/badge.svg)
+
 Check cert is Expired or not.
 
 ```php
