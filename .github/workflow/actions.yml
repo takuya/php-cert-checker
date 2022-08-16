@@ -16,7 +16,7 @@ jobs:
         shell: bash
         run : |
           php -v
-          composer install
+          composer install  -q --no-ansi --no-interaction --no-scripts --no-progress
       - name : phpunit
         shell: bash
         run : |
