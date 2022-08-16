@@ -8,7 +8,7 @@ Check cert is Expired or not.
 <?php
 use Takuya\PhpCertChecker\CertificateChecker;
 //
-$checker = new CertificateChecker($domain);
+$checker = new CertificateChecker("twitter.com");
 if ($checker->isCertExpired()){
   echo "The Cert is Expired at ". $checker->getExpiredAt();
 }
