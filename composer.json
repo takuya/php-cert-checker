@@ -1,0 +1,30 @@
+{
+  "name": "takuya/php-cert-checker",
+  "description": "get certificate information",
+  "type": "library",
+  "license": "GPL-3.0-or-later",
+  "autoload": {
+    "psr-4": {
+      "Takuya\\PhpCertChecker\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "takuya",
+      "email": "55338+takuya@users.noreply.github.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require-dev": {
+    "phpunit/phpunit": "^9.5",
+    "larapack/dd": "^1.1"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "ext-openssl": "*"
+  }
+}
