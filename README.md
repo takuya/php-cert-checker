@@ -16,10 +16,22 @@ if ($checker->isCertExpired()){
 
 ## Installing
 
+from github
 ```sh
 composer config repositories.'php-cert-checker' \
          vcs https://github.com/takuya/php-cert-checker  
 composer require takuya/php-cert-checker:master
 composer install 
 ```
+from packagist
+```sh
+composer require takuya/php-cert-checker
+```
 
+## Testing
+```shell
+git clone https://github.com/takuya/php-cert-checker
+cd php-cert-checker
+composer install 
+vendor/bin/phpunit
+```
