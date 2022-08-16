@@ -20,8 +20,6 @@ jobs:
       - name : phpunit
         shell: bash
         run : |
-          pwd
-          ls -alt
           vendor/bin/phpunit
       - name : log
         shell: bash
